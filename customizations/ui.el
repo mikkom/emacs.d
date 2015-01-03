@@ -39,12 +39,11 @@
 ;; Uncomment the lines below by removing semicolons and play with the
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
-(if (or (equal system-name "DH.local")
-        (equal system-name "waffles")) 
+(if (equal system-name "SURFACEPRO")
     (setq initial-frame-alist '((top . 0) (left . 0)
-                                (width . 177) (height . 47)))
-  (setq initial-frame-alist '((top . 0) (left . 0)
-                              (width . 177) (height . 53))))
+                                (width . 130) (height . 47)))
+    (setq initial-frame-alist '((top . 0) (left . 0)
+                                (width . 77) (height . 33))))
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
