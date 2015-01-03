@@ -77,3 +77,10 @@
 
 ;; no bell
 (setq ring-bell-function 'ignore)
+
+;; default font for Windows
+(when (eq system-type 'windows-nt)
+  (set-default-font
+   ;; "-raster-ProFontWindows-normal-r-normal-normal-11-82-96-96-c-*-iso10646-1")
+   ;; "-outline-Courier New-normal-r-normal-normal-12-90-96-96-c-*-iso10646-1")
+   "-outline-Consolas-normal-normal-normal-mono-12-90-96-96-c-*-iso10646-1"))

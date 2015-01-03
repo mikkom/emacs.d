@@ -59,3 +59,6 @@
 
 ;; projectile everywhere!
 (projectile-global-mode)
+
+;; Nicer way to move between windows
+(global-set-key [C-tab] 'other-window)
